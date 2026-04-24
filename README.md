@@ -1,3 +1,11 @@
+
+Para iniciar sesion: 
+Usuario: usuario
+Contraseña: si123
+
+
+---------------------------------------------------------------------------
+
 Etapa 1: Creación del Backend
 
 En esta etapa se creó la base del servidor usando Node.js con Express.
@@ -23,8 +31,8 @@ Se validan los datos ingresados por el usuario.
 
 Lógica aplicada:
 Se comparan los datos ingresados con un usuario fijo.
-Si los datos coinciden → acceso permitido.
-Si no coinciden → acceso denegado.
+Si los datos coinciden - acceso permitido.
+Si no coinciden - acceso denegado.
 
 También se agregó:
 Uso básico de sesiones o cookies (simple, sin mucha complejidad).
@@ -39,10 +47,6 @@ Implementación:
 Validación de usuario y contraseña.
 Simulación de sesión para mantener el estado del usuario.
 
-IMPORTANTE (credenciales usadas):
-Usuario: usuario
-Contraseña: si123
-
 Estas credenciales están escritas directamente en el código (forma simple, no profesional).
 
 Etapa 4: Archivo package.json
@@ -54,7 +58,7 @@ Se inicializó el proyecto con npm.
 Se instalaron librerías necesarias como Express.
 
 Dependencias utilizadas:
-express → para crear el servidor
+express - para crear el servidor
 (otras pueden estar, pero se dejaron las mínimas necesarias)
 
 Funcionalidad:
@@ -71,8 +75,8 @@ El servidor recibe los datos.
 Se validan con los datos guardados.
 
 Resultados:
-Si son correctos → entra al sistema
-Si son incorrectos → muestra error
+Si son correctos - entra al sistema
+Si son incorrectos - muestra error
 
 Etapa 6: Simplificación del código
 
