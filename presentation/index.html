@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login simple</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="caja">
+    <h1>Portal Semana 7</h1>
+    <p>Ejemplo simple con Node.js, Express, sesion y cookies.</p>
+
+    <div id="mensaje"></div>
+
+    <form action="/login" method="POST">
+      <label>Usuario</label>
+      <input type="text" name="usuario" required>
+
+      <label>Contraseña</label>
+      <input type="password" name="clave" required>
+
+      <button type="submit">Iniciar sesion</button>
+    </form>
+
+    <p class="ayuda">Usuario: <b>usuario</b></p>
+    <p class="ayuda">Contraseña: <b>si123</b></p>
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>
